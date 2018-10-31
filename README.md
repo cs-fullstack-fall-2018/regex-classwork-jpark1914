@@ -9,7 +9,7 @@ Test Data: A, B-, B+, D, A-, A+, C, D+
 
 2. Match only phone numbers in the format 901-555-2112 using Character Ranges
 Test Data: 901.555.1234, 270-555-4523, 901-555-9876, (502) 554-2613 
-/([0-9]{3}-[0-9]{3}-[0-9]{4})/
+/([0-9]{3}-[0-9]{3}-[0-9]{4})/gmi
 
 
 
